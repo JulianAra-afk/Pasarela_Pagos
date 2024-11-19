@@ -1,0 +1,62 @@
+# Sistema operativo
+*.DS_Store
+Thumbs.db
+
+# Archivos de usuario
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build
+bin/
+obj/
+out/
+
+# Logs
+*.log
+logs/
+*.tlog
+
+# Paquetes de NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Configuración de VS Code
+.vscode/
+
+# Configuración de Visual Studio
+*.vs/
+*.vscode/
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Archivos generados
+*.generated.cs
+*.feature.cs
+
+# Archivos de lock y dependencias
+project.lock.json
+project.fragment.lock.json
+
+# Archivos de publicación
+wwwroot/
+publish/
+
+# Archivos de base de datos local
+*.db
+*.sqlite
+*.sqlite3
+
+# Configuración de contenedores
+docker-compose.override.yml
+
+# Configuración de secretos
+secrets.json
+
+# Excluir carpetas y configuraciones específicas
+.env
